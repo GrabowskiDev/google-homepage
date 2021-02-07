@@ -1,0 +1,15 @@
+.main_google{
+    margin: auto;
+    border: auto;
+    width: 300px;
+}
+
+.search_form {
+    margin: auto;
+    border: auto;
+}
+
+.search_form input {
+    width: 90%;
+    margin-left: 5%;
+}
