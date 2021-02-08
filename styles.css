@@ -4,12 +4,69 @@ html {
 
 body {
     min-height:45%;
+    font-family: arial,sans-serif;
 }
 
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+}
+
+header li {
+    display: inline;
+    float: right;
+    margin: auto 5px auto 8px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header .app_box {
+    background-color: rgb(255, 255, 255);
+    min-height: 24px;
+    width: 24px;
+
+    display: grid;
+    grid-template-columns: 6px 6px 6px;
+    grid-template-rows: 6px 6px 6px;
+    column-gap: 3px;
+    row-gap: 3px;
+    justify-items: center;
+}
+
+header .child {
+    background-color: grey;
+    justify-self: center;
+    width: 6px;
+}
+
+header .app_box:hover .child {
+    background-color: rgb(61, 61, 61);
+}
+
+header .sign_box {
+    background-color: #1a73e8;
+    color: white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .main_google{
