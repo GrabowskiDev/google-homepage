@@ -11,6 +11,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 16px;
 }
 
 header ul {
@@ -67,6 +68,7 @@ header .sign_box {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+    border-radius: 7px;
 }
 
 .main_google{
@@ -82,6 +84,7 @@ header .sign_box {
     width: 40%;
     margin-left: 30%;
     margin-bottom: 1%;
+    border-radius: 6px;
 }
 
 .search_form button {
@@ -92,4 +95,34 @@ header .sign_box {
 .container {
     display: flex;
     justify-content: center;
+}
+
+footer ul {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 45px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-color:#f2f2f2;
+}
+
+footer li {
+    display: inline;
+    margin: auto 10px auto 10px;
+    color:rgb(61, 61, 61);
+}
+
+footer .space {
+    width: 90%;
+}
+
+.wrap {
+    min-width: max-content;
 }
