@@ -6,6 +6,7 @@ body {
     min-height:45%;
     font-family: arial,sans-serif;
     background-color: #ffffff;
+    color: #2f2f2f;
 }
 
 .center{
@@ -31,7 +32,7 @@ header li {
 }
 
 header a {
-    color: black;
+    color: #2f2f2f;
     text-decoration: none;
 }
 
@@ -80,7 +81,7 @@ header .sign_box:hover {
 /* Center of the page here */
 
 .main_google{
-    margin: 15% auto auto auto;
+    margin: 11em auto auto auto;
     width: 100%;
 }
 
@@ -88,28 +89,57 @@ header .sign_box:hover {
     margin: auto;
 }
 
-.searchbox input {
-    width: 40%;
-    margin-left: 30%;
-    margin-bottom: 1%;
-    margin-top: auto;
-    margin-bottom: auto;
+.search_form input {
+    width: 480px;
+    margin: auto;
+    padding: 10px 20px 10px 40px;
+    display: block;
+
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px 20px;
 }
 
-/*.searchbox {
-    padding: 0.4rem 0;
-    border-color: grey;
-    justify-self: center;
+.search_box {
+    display: flex;
+    margin: auto;
+    width: 540px;
 
-    background-color: grey;
-    width: 500px;
-    height: 30px;
-    margin: 0px auto 0px auto;
+    justify-content: flex-start;
 }
-*/
+
+.search_box:hover input{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-radius: 20px 20px;
+    border-color: rgba(223,225,229,0);
+}
+
+.search_icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 35px;
+    top: 10px;
+    margin-left: -20px;
+}
+
+.search_form input:focus {
+    outline: none;
+}
+
 .search_form button {
-    width:17%;
-    margin: 0px 1% 0px 1%;
+    width:160px;
+    height: 35px;
+    margin: 1% 1% 0px 1%;
+
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.search_form button:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    color:black;
 }
 
 .container {
